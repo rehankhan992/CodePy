@@ -11,7 +11,6 @@ GAME_W = 400
 
 
 class Player(object):
-
     def __init__(self, name, color="black"):
         self.score = 0
         self.str = StringVar()
@@ -23,7 +22,6 @@ class Player(object):
 
 
 class MyFrame(Frame):
-
     def __init__(self, master):
         Frame.__init__(self, master)
         self.GO_font = font.Font(self, \
